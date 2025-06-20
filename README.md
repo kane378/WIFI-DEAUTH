@@ -1,21 +1,20 @@
-# WIFI-DEAUTH
-A Wi-Fi deauthentication attack simulation project demonstrating how attackers can disconnect clients from a wireless network using deauth frames
-Tools Used:
-esptool
-espenv(virtual environment)
-Wireshark (for analysis)
+steps:
 
-📄 Included:
+1)sudo apt install python3-pip git unzip 
+2)pip3 install esptool(for this tool to work we need to work with virtual environment)
+By adding espenv, you are automating the configuration process for the ESP8266/ESP32 environment, so you don’t have to manually set environment variables like PATH, ESPPORT, ESPTOOL, etc., each time you work with the microcontroller. It helps make the development process more seamless
+                     
+3) Download deauther firmware
+   https://github.com/SpacehuhnTech/esp8266_deauther
+   Download the .bin file for your board,
+   for example: ESP8266_DEAUTHER-1.6.5-NodeMCU.bin
+4)Connect and Use the Deauther
 
-Attack procedure
+Unplug and replug the ESP8266.
 
-Captured packet analysis
+It will create a Wi-Fi access point, usually called pwned or Deauther. Connect to it from another device (phone/laptop).
+Open a browser and go to: http://192.168.4.1
+Use the interface to:
 
-PDF project report
-
-Legal & ethical considerations
-
-⚠️ Note: This project is for educational and ethical research purposes only.
-
-
-
+Scan for networks Select a target
+Start Deauth, Beacon spam, or Probe attack
