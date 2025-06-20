@@ -1,11 +1,8 @@
 # WIFI-DEAUTH
 A Wi-Fi deauthentication attack simulation project demonstrating how attackers can disconnect clients from a wireless network using deauth frames
 Tools Used:
-
-Aireplay-ng
-
-Monitor mode setup (e.g., airmon-ng)
-
+esptool
+espenv(virtual environment)
 Wireshark (for analysis)
 
 📄 Included:
