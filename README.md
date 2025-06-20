@@ -2,19 +2,16 @@ steps:
 
 1)sudo apt install python3-pip git unzip 
 2)pip3 install esptool(for this tool to work we need to work with virtual environment)
-By adding espenv, you are automating the configuration process for the ESP8266/ESP32 environment, so you don’t have to manually set environment variables like PATH, ESPPORT, ESPTOOL, etc., each time you work with the microcontroller. It helps make the development process more seamless
-                     
+By adding espenv, you are automating the configuration process for the ESP8266/ESP32 environment, so you don’t have to manually set environment variables like PATH, ESPPORT, ESPTOOL, etc., each time you work with the microcontroller. It helps make the development process more seamles            
 3) Download deauther firmware
    https://github.com/SpacehuhnTech/esp8266_deauther
    Download the .bin file for your board,
    for example: ESP8266_DEAUTHER-1.6.5-NodeMCU.bin
+   
 4)Connect and Use the Deauther
-
 Unplug and replug the ESP8266.
-
 It will create a Wi-Fi access point, usually called pwned or Deauther. Connect to it from another device (phone/laptop).
 Open a browser and go to: http://192.168.4.1
 Use the interface to:
-
 Scan for networks Select a target
 Start Deauth, Beacon spam, or Probe attack
