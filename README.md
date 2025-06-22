@@ -23,12 +23,8 @@ sudo apt install python3-pip git unzip
 ## 🔧 Step 2: Install esptool (Recommended in Virtual Environment)
 
 ## Create and activate a virtual environment
-``` python3 -m venv espenv ```
-Activate it:
-```
-source espenv/bin/activate
-
-```
+``` python3 -m venv espenv ``
+  source espenv/bin/activate ```
 
 # Install esptool
 ```
