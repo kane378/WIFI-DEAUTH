@@ -8,7 +8,7 @@ The primary objective of this project is to serve as an educational tool, demons
 
 steps to be followed:
 
-1)sudo apt install python3-pip git unzip 
+1) '''sudo apt install python3-pip git unzip'''
 2)pip3 install esptool(for this tool to work we need to work with virtual environment)
 By adding espenv, you are automating the configuration process for the ESP8266/ESP32 environment, so you don’t have to manually set environment variables like PATH, ESPPORT, ESPTOOL, etc., each time you work with the microcontroller. It helps make the development process more seamles            
 3) Download deauther firmware
