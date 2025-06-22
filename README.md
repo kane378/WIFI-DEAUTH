@@ -6,9 +6,13 @@ Beyond deauthentication, the firmware also supports beacon flooding and probe re
  Main Aim:
 The primary objective of this project is to serve as an educational tool, demonstrating the vulnerabilities inherent in the Wi-Fi protocol and emphasizing the importance of implementing security measures such as Protected Management Frames (PMF). While the project provides a practical demonstration of these vulnerabilities, it is crucial to note that it is intended solely for authorized testing and educational purposes. Unauthorized use on networks without explicit permission is illegal and unethical. Users are encouraged to utilize this tool responsibly to understand network vulnerabilities and advocate for stronger security measures in wireless communications.
 
-steps to be followed:
+## 🔧 Install Dependencies
 
-1) '''sudo apt install python3-pip git unzip'''
+Run the following command to install the required tools:
+
+```bash
+sudo apt install python3-pip git unzip
+
 2)pip3 install esptool(for this tool to work we need to work with virtual environment)
 By adding espenv, you are automating the configuration process for the ESP8266/ESP32 environment, so you don’t have to manually set environment variables like PATH, ESPPORT, ESPTOOL, etc., each time you work with the microcontroller. It helps make the development process more seamles            
 3) Download deauther firmware
