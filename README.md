@@ -20,10 +20,11 @@ This guide walks you through installing necessary tools, downloading firmware, a
 sudo apt install python3-pip git unzip
 ```
 
-## Step 2: Install esptool (Recommended in Virtual Environment)
+## 🔧 Step 2: Install esptool (Recommended in Virtual Environment)
 
-# Create and activate a virtual environment
-```python3 -m venv espenv ```
+### Create and activate a virtual environment
+```python3 -m venv espenv
+```
 
 Activate it:
 ```
