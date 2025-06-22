@@ -22,10 +22,8 @@ sudo apt install python3-pip git unzip
 
 ## 🔧 Step 2: Install esptool (Recommended in Virtual Environment)
 
-### Create and activate a virtual environment
-```python3 -m venv espenv
-```
-
+## Create and activate a virtual environment
+``` python3 -m venv espenv ```
 Activate it:
 ```
 source espenv/bin/activate
@@ -37,7 +35,7 @@ source espenv/bin/activate
 pip install esptool
 ```
 Using a virtual environment like espenv helps manage the ESP8266/ESP32 toolchain without polluting your system. It avoids the need to manually configure environment variables like PATH, ESPPORT, and ESPTOOL each time.
-## Step 3: Download Deauther Firmware
+## 🔧 Step 3: Download Deauther Firmware
 Go to the official repository:
 
 🔗 https://github.com/SpacehuhnTech/esp8266_deauther
